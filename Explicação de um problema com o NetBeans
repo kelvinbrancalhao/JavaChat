@@ -1,0 +1,8 @@
+Logo após a Instalação o Netbeans apresentou um problema com a identificação da JDK 
+já que ela nao conseguiu encontrar a solução que eu encontrei foi:
+
+-- com a IDE fechada -- entrar na pasta  de instalação da IDE e acessar a /etc e editar o arquivo
+
+#netbeans.confe alterar a linha 57 e colocar o local onde está o seu jdk  
+
+-- o que eu apliquei foi netbeans_jdkhome="/usr/lib/jvm/java-8-oracle"
